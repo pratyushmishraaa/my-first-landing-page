@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FITNESS LOVERS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* CSS RESET */
+        body {
+            font-family: 'Baloo Paaji 2', cursive;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/sven-mieke-jO6vBWX9h9Y-unsplash.jpg');
+
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 20px;
+
+
+
+
+        }
+
+        .left img {
+            width: 80px;
+            filter: invert(100%);
+            margin-left: 20px;
+
+
+
+
+        }
+
+        .left div {
+            text-align: center;
+            line-height: 12px;
+            font-size: 18px;
+
+        }
+
+        .mid {
+            display: block;
+            width: 38%;
+            margin: 20px auto;
+
+
+            /* border: 2px solid green; */
+
+        }
+
+        .right {
+            position: absolute;
+            right: 14px;
+            top: 20px;
+            /* border: 2px solid yellow; */
+            display: inline-block;
+
+        }
+
+        .navbar {
+            display: inline-block;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 15px;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+
+        }
+
+        .navbar li a:hover,
+        .navber li a.active {
+            text-decoration: underline;
+            color: grey;
+
+
+
+
+        }
+
+        .btn {
+            margin: 0px 10px;
+            background-color: black;
+            color: white;
+            padding: 5px 13px;
+            /* border: 2px solid grey; */
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+            font-family: 'Baloo Paaji 2', cursive;
+
+
+        }
+
+        .btn:hover {
+            background-color: rgb(31, 30, 30);
+
+
+        }
+
+        .container {
+            /* border: 2px solid white; */
+            margin: 200px 100px;
+            padding: 75px 75px;
+            width: 25%;
+            border-radius: 10px;
+
+        }
+
+        .form-group input {
+            font-family: 'Baloo Paaji 2', cursive;
+            text-align: center;
+            display: block;
+            width: 228px;
+            padding: 11px;
+            /* border: 3px solid black; */
+            margin: 6px auto;
+            font-size: 12px;
+            border-radius: 20px;
+
+
+        }
+        .container h1{
+            text-align: center;
+        }
+    .container button{
+        display: block;
+        width: 23%;
+        margin: auto;
+
+        
+    }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/weightlifter-3944725_1280.png" alt="">
+            <div>FITNESS LOVERS</div>
+
+
+
+        </div>
+        <!-- mid box for nav bar -->
+        <div class="mid">
+
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a> </li>
+                <li><a href="#">About Us</a> </li>
+                <li><a href="#">Fitness Calculator</a> </li>
+                <li><a href="#">Contact Us</a> </li>
+
+            </ul>
+
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Buxar </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+                <input type="text" name="" placeholder="Enter Your Age">
+                <input type="text" name="" placeholder="Enter Your Gender">
+                <input type="text" name="" placeholder="Enter Your Locality">
+                <button class="btn">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
